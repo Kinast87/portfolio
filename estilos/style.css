@@ -34,8 +34,11 @@ header{
   display: flex;
   justify-content: end;
   align-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
 }
-
 #menu ul{
   list-style: none;
   display: flex;
@@ -57,13 +60,14 @@ main{
   display: grid;
   grid-template-columns: auto 90vw auto;
   gap: 20px;
-  margin-top: 20px;
+  margin-top: 60px;
 }
 #ficha{
   background-color: var(--fundo-card);
   padding: 20px;
   border-radius: 8px;
   grid-column: 2;
+
 }
 
 #ficha .foto{
@@ -215,6 +219,20 @@ p {
 }
 details{
   display: block;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  background-color: var(--destaque);
+  color: var(--texto-inverso);
+}
+body.escuro {
+    --fundo-principal: #222222;
+    --texto: #e0e0e0;
+    --texto-inverso: #333333;
+    --destaque: #ff5522;
+    --destaque-inverso: #a73917;
+    --fundo-card: #444444;
 }
 @media  screen and (min-width: 768px) {
   .skill-container{
