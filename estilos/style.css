@@ -53,3 +53,17 @@ header{
   background-color: var(--destaque-inverso);
   color: var(--destaque);
 }
+main{
+
+}
+#ficha{
+  background-color: var(--fundo-card);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.foto{
+  width: 200px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
