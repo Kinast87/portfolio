@@ -69,7 +69,9 @@ main{
   grid-column: 2;
 
 }
-
+section, article{
+  scroll-margin-top: 80px;
+}
 #ficha .foto{
   width: 200px;
   aspect-ratio: 1/1;
@@ -225,6 +227,26 @@ footer{
   justify-content: center;
   background-color: var(--destaque);
   color: var(--texto-inverso);
+}
+.links-projeto {
+  margin-top: 12px;
+  display: flex;
+  gap: 10px;
+}
+
+.links-projeto a {
+  display: inline-block;
+  padding: 8px 14px;
+  background-color: var(--destaque);
+  color: var(--texto-inverso);
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.links-projeto a:hover {
+  background-color: var(--destaque-inverso);
 }
 body.escuro {
     --fundo-principal: #222222;
