@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /* 
   Variáveis para cores:
   --fundo-principal
@@ -256,8 +258,4 @@ body.escuro {
     --destaque-inverso: #a73917;
     --fundo-card: #444444;
 }
-@media  screen and (min-width: 768px) {
-  .skill-container{
-    grid-template-columns: 1fr 1fr;
-  }
-}
+
